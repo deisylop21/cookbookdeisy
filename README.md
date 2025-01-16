@@ -18,7 +18,8 @@ Música: Disfruto escuchar música constantemente, acompañándome en todo momen
 Lectura: Me gusta concentrarme en libros de diferentes géneros.  
 Armado de Legos: Disfruto construir y crear con piezas de Lego.  
 Correr: Me apasiona salir a correr y mantenerme activa.
-- Sobre el Proyecto
+
+**Sobre el Proyecto**
 El proyecto CookBookDeisy es una aplicación de Flutter diseñada como un catálogo de componentes y ejemplos esenciales para el desarrollo de aplicaciones móviles. En este repositorio encontrarás casos prácticos de:
 
 - **Navegación**: Implementación de transiciones entre pantallas.  
