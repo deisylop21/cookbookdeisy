@@ -1,5 +1,5 @@
 CookBookDeisy  
-¡Bienvenidos al repositorio de CookBookDeisy! Este proyecto es un compendio de ejemplos y elementos de Flutter, abarcando navegación, formularios, controles, diseños, manejo de imágenes y más.
+¡Bienvenidos al repositorio de CookBookDeisy! Este proyecto en donde hay ejemplos y elementos de Flutter, abarcando navegación, formularios, controles, diseños, manejo de imágenes y más.
 
 **Sobre Mí**
 
