@@ -12,7 +12,7 @@ import 'package:cookbookdeisy/pages/news_page.dart';
 import 'package:cookbookdeisy/pages/profile_page.dart';
 import 'package:cookbookdeisy/pages/networking/main_networking.dart';
 import 'package:cookbookdeisy/pages/animation_page.dart';
-
+import 'package:cookbookdeisy/pages/persistence_page.dart';
 
 void main() {
   runApp(const cookbookdeisy());
@@ -94,16 +94,23 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       'title': 'Networking',
       'icon': 'assets/lottie/networking.json',
       'route': const MainNetworking(),
-      'color': Colors.teal,
+      'color': const Color(0xFF443513),
       'description': 'Rentadores y Rentadoras',
     },
     {
       'title': 'Animaciones.',
-      'icon': 'assets/lottie/navigation.json',
+      'icon': 'assets/lottie/animations.json',
       'route': const AnimationPage(),
       'color': const Color(0xFFCD853F), //
       'description': 'Una interfaz más intituiva',
     },
+    {
+      'title': 'Persistencia',
+      'icon': 'assets/lottie/persistence.json', // Necesitarás agregar este archivo
+      'route': const PersistencePage(),
+      'color': const Color(0xFF503929),
+      'description': 'SQLite, archivos y preferencias',
+    }
   ];
 
   @override
