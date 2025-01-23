@@ -10,6 +10,9 @@ import 'package:cookbookdeisy/pages/lists_page.dart';
 import 'package:cookbookdeisy/pages/navigation_page.dart';
 import 'package:cookbookdeisy/pages/news_page.dart';
 import 'package:cookbookdeisy/pages/profile_page.dart';
+import 'package:cookbookdeisy/pages/networking/main_networking.dart';
+import 'package:cookbookdeisy/pages/animation_page.dart';
+
 
 void main() {
   runApp(const cookbookdeisy());
@@ -86,6 +89,20 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       'route': const NavigationPage(),
       'color': const Color(0xFF966F33), // Wood Brown
       'description': 'Patrones de navegación fluidos',
+    },
+    {
+      'title': 'Networking',
+      'icon': 'assets/lottie/networking.json',
+      'route': const MainNetworking(),
+      'color': Colors.teal,
+      'description': 'Rentadores y Rentadoras',
+    },
+    {
+      'title': 'Animaciones.',
+      'icon': 'assets/lottie/navigation.json',
+      'route': const AnimationPage(),
+      'color': const Color(0xFFCD853F), //
+      'description': 'Una interfaz más intituiva',
     },
   ];
 
